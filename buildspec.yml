@@ -25,6 +25,6 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-  type: zip
   files:
-    #- your artifacts file.
+    - '**/*'
+  base-directory: dist/agnular
